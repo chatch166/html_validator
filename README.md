@@ -26,7 +26,7 @@ Which results in text that looks like: Data structures is <strong>the best</stro
 The text  between angle brackets is called a tag,
 and tags always come in pairs.
 The first tag (`<strong>`) is called an opening tag and the second tag (`</strong>`) is called a closing tag.
-Closing tags always have the same text as an opening tag, except that a slash `/` is added at the very beginning.
+Closing tags  always have the same text as an opening tag, except that a slash `/` is added at the very beginning.
 
 There are many html tags that control different formatting options,
 and they get combined in complex ways to generate the layout of webpages.
