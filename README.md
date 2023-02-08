@@ -23,7 +23,7 @@ Data structures is <strong>the best</strong>!
 
 Which results in text that looks like: Data structures is <strong>the best</strong>!
 
-The text between angle brackets is called a tag,
+The text  between angle brackets is called a tag,
 and tags always come in pairs.
 The first tag (`<strong>`) is called an opening tag and the second tag (`</strong>`) is called a closing tag.
 Closing tags always have the same text as an opening tag, except that a slash `/` is added at the very beginning.
