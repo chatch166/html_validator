@@ -12,7 +12,7 @@ You will implement an extended version of the balanced parentheses algorithm tha
 1. practice using stacks
 1. practice using pytest and test driven development
 
-## Background
+## Background 
 
 HTML is how webpages format their content.
 A simple example is the following code:

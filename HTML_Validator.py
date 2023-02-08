@@ -38,7 +38,7 @@ def validate_html(html):
     else:
         return False
 
-    # use the _extract_tags function below to generate a
+    # use the _extract_tags  function below to generate a
     # list of html tags without any extra text;
     # then process these html tags using the balanced
     # parentheses algorithm from the class/book
