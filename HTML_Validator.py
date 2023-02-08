@@ -3,7 +3,7 @@
 
 def validate_html(html):
     '''
-    This function performs a limited version of html validation
+    This function  performs a limited version of html validation
     by checking whether every opening tag has a corresponding closing tag.
 
     >>> validate_html('<strong>example</strong>')
@@ -27,8 +27,8 @@ def validate_html(html):
         else:
             if len(stack) == 0:
                 balanced = False
-            elif("/" not in stack[-1] and "/" in tag
-                    and len(tag) == len(stack[-1]) + 1):
+            elif ("/" not in stack[-1] and "/" in tag and
+                    len(tag) == len(stack[-1]) + 1):
                 stack.pop()
             else:
                 balanced = False
